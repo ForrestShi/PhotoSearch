@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 965}";
+		};
+	};
+	1D3623250D0F684500981E51 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 845}}";
+			sepNavSelRange = "{1940, 74}";
+			sepNavVisRange = "{596, 1614}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* PhotoSearch */ = {
+		activeExec = 0;
+		executables = (
+			95368F30127E82D2009F20DB /* PhotoSearch */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 95368F30127E82D2009F20DB /* PhotoSearch */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PhotoSearch */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* PhotoSearch */,
+		);
+		breakpoints = (
+			9538153312893F270014B631 /* MockPhotoSource.m:36 */,
+			9538156E12893FE90014B631 /* MockPhotoSource.m:68 */,
+			9538157012893FEB0014B631 /* MockPhotoSource.m:75 */,
+			9538157A12893FFA0014B631 /* MockPhotoSource.m:46 */,
+			953815BD128941150014B631 /* MockPhotoSource.m:86 */,
+			953815C1128943300014B631 /* MockPhotoSource.m:122 */,
+			953816FE128A79E80014B631 /* MockPhotoSource.m:208 */,
+			9538172A128A7C070014B631 /* MockPhotoSource.m:224 */,
+			95381734128A7C670014B631 /* MockPhotoSource.m:223 */,
+			95381736128A7C690014B631 /* MockPhotoSource.m:213 */,
+			95381738128A7C6B0014B631 /* MockPhotoSource.m:218 */,
+			9538173E128A7CFD0014B631 /* MockPhotoSource.m:191 */,
+			95381747128A7D260014B631 /* MockPhotoSource.m:188 */,
+			95381754128A7D720014B631 /* MockPhotoSource.m:42 */,
+			9538175C128A7D9E0014B631 /* MockPhotoSource.m:177 */,
+			95381799128A88A00014B631 /* MockPhotoSource.m:98 */,
+			953818C3128BCE250014B631 /* SearchFeedViewController.m:39 */,
+			953818C5128BCE270014B631 /* SearchFeedViewController.m:31 */,
+			95381943128BCECC0014B631 /* SearchFeedViewController.m:33 */,
+		);
+		codeSenseManager = 95368F69127E82E1009F20DB /* Code sense */;
+		executables = (
+			95368F30127E82D2009F20DB /* PhotoSearch */,
+			95368F31127E82D2009F20DB /* PhotoSearch-Xcode3.2.5 */,
+			95368F32127E82D2009F20DB /* PhotoSearch-Xcode3.2.2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					814,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					774,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310984275;
+			PBXWorkspaceStateSaveDate = 310984275;
+		};
+		perUserProjectItems = {
+			95368F97127E871F009F20DB /* PBXTextBookmark */ = 95368F97127E871F009F20DB /* PBXTextBookmark */;
+			95381623128A2ACD0014B631 /* PBXTextBookmark */ = 95381623128A2ACD0014B631 /* PBXTextBookmark */;
+			953817FA128BBFF20014B631 /* PBXTextBookmark */ = 953817FA128BBFF20014B631 /* PBXTextBookmark */;
+			953817FC128BBFF20014B631 /* PBXTextBookmark */ = 953817FC128BBFF20014B631 /* PBXTextBookmark */;
+			95381801128BBFF20014B631 /* PBXTextBookmark */ = 95381801128BBFF20014B631 /* PBXTextBookmark */;
+			95381802128BBFF20014B631 /* PBXTextBookmark */ = 95381802128BBFF20014B631 /* PBXTextBookmark */;
+			95381810128BC0A90014B631 /* PBXTextBookmark */ = 95381810128BC0A90014B631 /* PBXTextBookmark */;
+			953818B1128BC20A0014B631 /* PBXTextBookmark */ = 953818B1128BC20A0014B631 /* PBXTextBookmark */;
+			953818BC128BCE010014B631 /* PBXTextBookmark */ = 953818BC128BCE010014B631 /* PBXTextBookmark */;
+			9538197D128BD3560014B631 /* PBXTextBookmark */ = 9538197D128BD3560014B631 /* PBXTextBookmark */;
+			95381980128BD3560014B631 /* PBXTextBookmark */ = 95381980128BD3560014B631 /* PBXTextBookmark */;
+			95381981128BD3560014B631 /* PBXTextBookmark */ = 95381981128BD3560014B631 /* PBXTextBookmark */;
+			95381985128BD3560014B631 /* PBXTextBookmark */ = 95381985128BD3560014B631 /* PBXTextBookmark */;
+			953819B5128BD6210014B631 /* PBXTextBookmark */ = 953819B5128BD6210014B631 /* PBXTextBookmark */;
+			953819B7128BD6210014B631 /* PBXTextBookmark */ = 953819B7128BD6210014B631 /* PBXTextBookmark */;
+			953819D2128BE8F90014B631 /* PBXTextBookmark */ = 953819D2128BE8F90014B631 /* PBXTextBookmark */;
+			953819D3128BE8F90014B631 /* PBXTextBookmark */ = 953819D3128BE8F90014B631 /* PBXTextBookmark */;
+			953819D4128BE8F90014B631 /* PBXTextBookmark */ = 953819D4128BE8F90014B631 /* PBXTextBookmark */;
+			953819D5128BE8F90014B631 /* PBXTextBookmark */ = 953819D5128BE8F90014B631 /* PBXTextBookmark */;
+			953819D6128BE8F90014B631 /* PBXTextBookmark */ = 953819D6128BE8F90014B631 /* PBXTextBookmark */;
+			953819D8128BE8F90014B631 /* PBXTextBookmark */ = 953819D8128BE8F90014B631 /* PBXTextBookmark */;
+			953819DA128BE8F90014B631 /* PBXTextBookmark */ = 953819DA128BE8F90014B631 /* PBXTextBookmark */;
+			953819DC128BE8F90014B631 /* PBXTextBookmark */ = 953819DC128BE8F90014B631 /* PBXTextBookmark */;
+			953819DE128BE8F90014B631 /* PBXTextBookmark */ = 953819DE128BE8F90014B631 /* PBXTextBookmark */;
+			953819DF128BE8F90014B631 /* PBXTextBookmark */ = 953819DF128BE8F90014B631 /* PBXTextBookmark */;
+			953819E0128BE8F90014B631 /* PBXTextBookmark */ = 953819E0128BE8F90014B631 /* PBXTextBookmark */;
+			953819E1128BE8F90014B631 /* PBXTextBookmark */ = 953819E1128BE8F90014B631 /* PBXTextBookmark */;
+			953819E2128BE8F90014B631 /* PBXTextBookmark */ = 953819E2128BE8F90014B631 /* PBXTextBookmark */;
+			953819E3128BE8F90014B631 /* PBXTextBookmark */ = 953819E3128BE8F90014B631 /* PBXTextBookmark */;
+			953819E4128BE8F90014B631 /* PBXTextBookmark */ = 953819E4128BE8F90014B631 /* PBXTextBookmark */;
+			953819E6128BE8F90014B631 /* PBXTextBookmark */ = 953819E6128BE8F90014B631 /* PBXTextBookmark */;
+			953819E8128BE8F90014B631 /* PBXTextBookmark */ = 953819E8128BE8F90014B631 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 95368F68127E82E1009F20DB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	664D010C12664B5F004C20C2 /* PhotoSearch-Xcode3.2.5 */ = {
+		activeExec = 0;
+		executables = (
+			95368F31127E82D2009F20DB /* PhotoSearch-Xcode3.2.5 */,
+		);
+	};
+	66D438CC12664C5F004C5F38 /* PhotoSearch-Xcode3.2.2 */ = {
+		activeExec = 0;
+		executables = (
+			95368F32127E82D2009F20DB /* PhotoSearch-Xcode3.2.2 */,
+		);
+	};
+	6E08B424118286D100DA1579 /* TTFacebookPost.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{618, 0}";
+			sepNavVisRange = "{0, 914}";
+		};
+	};
+	6E08B425118286D100DA1579 /* TTFacebookPost.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1009, 559}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{558, 786}";
+		};
+	};
+	6E08B427118286D900DA1579 /* TTFacebookSearchFeedDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{996, 25}";
+			sepNavVisRange = "{0, 1100}";
+		};
+	};
+	6E08B428118286D900DA1579 /* TTFacebookSearchFeedDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1235}}";
+			sepNavSelRange = "{1744, 0}";
+			sepNavVisRange = "{596, 1152}";
+		};
+	};
+	6E08B42A118286DF00DA1579 /* TTFacebookSearchFeedModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{935, 17}";
+			sepNavVisRange = "{0, 1166}";
+		};
+	};
+	6E08B42B118286DF00DA1579 /* TTFacebookSearchFeedModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1495}}";
+			sepNavSelRange = "{1105, 42}";
+			sepNavVisRange = "{271, 1346}";
+		};
+	};
+	6E08B42D118286E700DA1579 /* SearchFeedViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{394, 21}";
+			sepNavVisRange = "{0, 609}";
+			sepNavWindowFrame = "{{15, 40}, {1399, 833}}";
+		};
+	};
+	6E08B42E118286E700DA1579 /* SearchFeedViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 975}}";
+			sepNavSelRange = "{2338, 0}";
+			sepNavVisRange = "{633, 945}";
+		};
+	};
+	6E5F1F89117FBE4D004BEBA9 /* Atlas.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 665}";
+		};
+	};
+	6E5F1F8A117FBE4D004BEBA9 /* Atlas.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{349, 0}";
+			sepNavVisRange = "{0, 658}";
+		};
+	};
+	95368F30127E82D2009F20DB /* PhotoSearch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PhotoSearch;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	95368F31127E82D2009F20DB /* PhotoSearch-Xcode3.2.5 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "PhotoSearch-Xcode3.2.5";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	95368F32127E82D2009F20DB /* PhotoSearch-Xcode3.2.2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "PhotoSearch-Xcode3.2.2";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	95368F68127E82E1009F20DB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	95368F69127E82E1009F20DB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	95368F97127E871F009F20DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B425118286D100DA1579 /* TTFacebookPost.m */;
+		name = "TTFacebookPost.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 558;
+	};
+	9538150012893E610014B631 /* MockPhotoSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 702}}";
+			sepNavSelRange = "{749, 0}";
+			sepNavVisRange = "{129, 1195}";
+		};
+	};
+	9538150112893E610014B631 /* MockPhotoSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 3510}}";
+			sepNavSelRange = "{4106, 0}";
+			sepNavVisRange = "{3242, 954}";
+		};
+	};
+	9538150212893E610014B631 /* PhotoThumbsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 139}";
+		};
+	};
+	9538150312893E610014B631 /* PhotoThumbsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 586}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRange = "{0, 260}";
+		};
+	};
+	9538153312893F270014B631 /* MockPhotoSource.m:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-myLoad:more:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = TTFacebook;
+		modificationTime = 311154094.279313;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	9538156E12893FE90014B631 /* MockPhotoSource.m:68 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-myLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 68;
+		location = TTFacebook;
+		modificationTime = 311154094.280502;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	9538157012893FEB0014B631 /* MockPhotoSource.m:75 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-myLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 75;
+		location = TTFacebook;
+		modificationTime = 311154094.281122;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	9538157A12893FFA0014B631 /* MockPhotoSource.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-myLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		location = TTFacebook;
+		modificationTime = 311154094.281863;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	953815BD128941150014B631 /* MockPhotoSource.m:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-requestDidFinishLoad:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 86;
+		location = TTFacebook;
+		modificationTime = 311154094.282613;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	953815C1128943300014B631 /* MockPhotoSource.m:122 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-requestDidFinishLoad:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 122;
+		location = TTFacebook;
+		modificationTime = 311154094.283289;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	95381623128A2ACD0014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 95381624128A2ACD0014B631 /* TTURLRequestDelegate.h */;
+		name = "TTURLRequestDelegate.h: 44";
+		rLen = 53;
+		rLoc = 1278;
+		rType = 0;
+		vrLen = 1336;
+		vrLoc = 0;
+	};
+	95381624128A2ACD0014B631 /* TTURLRequestDelegate.h */ = {
+		isa = PBXFileReference;
+		name = TTURLRequestDelegate.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20Network/TTURLRequestDelegate.h;
+		sourceTree = "<absolute>";
+	};
+	953816FE128A79E80014B631 /* MockPhotoSource.m:208 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-numberOfPhotos";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 208;
+		location = TTFacebook;
+		modificationTime = 311154094.284061;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	9538172A128A7C070014B631 /* MockPhotoSource.m:224 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-photoAtIndex:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 224;
+		location = TTFacebook;
+		modificationTime = 311154094.284825;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	95381734128A7C670014B631 /* MockPhotoSource.m:223 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-photoAtIndex:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 223;
+		location = TTFacebook;
+		modificationTime = 311154094.285537;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	95381736128A7C690014B631 /* MockPhotoSource.m:213 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-numberOfPhotos";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 213;
+		location = TTFacebook;
+		modificationTime = 311154094.286296;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	95381738128A7C6B0014B631 /* MockPhotoSource.m:218 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-maxPhotoIndex";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 218;
+		location = TTFacebook;
+		modificationTime = 311154094.287143;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	9538173E128A7CFD0014B631 /* MockPhotoSource.m:191 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-load:more:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 191;
+		location = PhotoSearch;
+		modificationTime = 311154094.287989;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	95381747128A7D260014B631 /* MockPhotoSource.m:188 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-load:more:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 188;
+		location = PhotoSearch;
+		modificationTime = 311154094.288837;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	95381754128A7D720014B631 /* MockPhotoSource.m:42 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-myLoad:more:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 42;
+		location = PhotoSearch;
+		modificationTime = 311154094.28964;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9538175C128A7D9E0014B631 /* MockPhotoSource.m:177 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-isLoading";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 177;
+		location = TTFacebook;
+		modificationTime = 311154094.290359;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	95381799128A88A00014B631 /* MockPhotoSource.m:98 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		functionName = "-requestDidFinishLoad:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 98;
+		location = PhotoSearch;
+		modificationTime = 311154094.291079;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	953817B3128BBBAC0014B631 /* RootSearchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{0, 238}";
+		};
+	};
+	953817B4128BBBAC0014B631 /* RootSearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1014}}";
+			sepNavSelRange = "{1274, 0}";
+			sepNavVisRange = "{641, 1296}";
+		};
+	};
+	953817FA128BBFF20014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817FB128BBFF20014B631 /* TTURLResponse.h */;
+		name = "TTURLResponse.h: 30";
+		rLen = 35;
+		rLoc = 966;
+		rType = 0;
+		vrLen = 1442;
+		vrLoc = 173;
+	};
+	953817FB128BBFF20014B631 /* TTURLResponse.h */ = {
+		isa = PBXFileReference;
+		name = TTURLResponse.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20Network/TTURLResponse.h;
+		sourceTree = "<absolute>";
+	};
+	953817FC128BBFF20014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817FD128BBFF20014B631 /* TTURLRequest.h */;
+		name = "TTURLRequest.h: 47";
+		rLen = 13;
+		rLoc = 1410;
+		rType = 0;
+		vrLen = 941;
+		vrLoc = 1565;
+	};
+	953817FD128BBFF20014B631 /* TTURLRequest.h */ = {
+		isa = PBXFileReference;
+		name = TTURLRequest.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20Network/TTURLRequest.h;
+		sourceTree = "<absolute>";
+	};
+	95381801128BBFF20014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150012893E610014B631 /* MockPhotoSource.h */;
+		name = "MockPhotoSource.h: 27";
+		rLen = 0;
+		rLoc = 749;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 129;
+	};
+	95381802128BBFF20014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		name = "MockPhotoSource.m: 54";
+		rLen = 0;
+		rLoc = 1655;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 908;
+	};
+	95381810128BC0A90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150312893E610014B631 /* PhotoThumbsViewController.m */;
+		name = "PhotoTest2Controller.m: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	953818B1128BC20A0014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150212893E610014B631 /* PhotoThumbsViewController.h */;
+		name = "PhotoThumbsViewController.h: 9";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	953818BC128BCE010014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AppDelegate.m */;
+		name = "AppDelegate.m: 46";
+		rLen = 74;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1614;
+		vrLoc = 596;
+	};
+	953818C3128BCE250014B631 /* SearchFeedViewController.m:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E08B42E118286E700DA1579 /* SearchFeedViewController.m */;
+		functionName = "-initWithNibName:bundle:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 39;
+		location = PhotoSearch;
+		modificationTime = 311154104.076673;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	953818C5128BCE270014B631 /* SearchFeedViewController.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E08B42E118286E700DA1579 /* SearchFeedViewController.m */;
+		functionName = "-initWithQuery:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = PhotoSearch;
+		modificationTime = 311154099.947781;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	95381943128BCECC0014B631 /* SearchFeedViewController.m:33 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E08B42E118286E700DA1579 /* SearchFeedViewController.m */;
+		functionName = "-initWithQuery:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 33;
+		location = PhotoSearch;
+		modificationTime = 311154111.94946;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9538196A128BD1E80014B631 /* TTTwitterSearchFeedDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1097}";
+		};
+	};
+	9538196B128BD1E80014B631 /* TTTwitterSearchFeedDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1365}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRange = "{411, 1180}";
+		};
+	};
+	9538196C128BD1E80014B631 /* TTTwitterSearchFeedModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1167}";
+		};
+	};
+	9538196D128BD1E80014B631 /* TTTwitterSearchFeedModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1521}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{898, 1295}";
+		};
+	};
+	9538197D128BD3560014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B424118286D100DA1579 /* TTFacebookPost.h */;
+		name = "TTFacebookPost.h: 17";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	95381980128BD3560014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538196C128BD1E80014B631 /* TTTwitterSearchFeedModel.h */;
+		name = "TTTwitterSearchFeedModel.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 0;
+	};
+	95381981128BD3560014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538196D128BD1E80014B631 /* TTTwitterSearchFeedModel.m */;
+		name = "TTTwitterSearchFeedModel.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1295;
+		vrLoc = 898;
+	};
+	95381985128BD3560014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538196B128BD1E80014B631 /* TTTwitterSearchFeedDataSource.m */;
+		name = "TTTwitterSearchFeedDataSource.m: 18";
+		rLen = 0;
+		rLoc = 638;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 411;
+	};
+	953819B5128BD6210014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817B4128BBBAC0014B631 /* RootSearchViewController.m */;
+		name = "ChoosePhotoViewController.m: 42";
+		rLen = 0;
+		rLoc = 1272;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 641;
+	};
+	953819B7128BD6210014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AppDelegate.h */;
+		name = "AppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 0;
+	};
+	953819D2128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817B3128BBBAC0014B631 /* RootSearchViewController.h */;
+		name = "RootSearchViewController.h: 11";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	953819D3128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E5F1F89117FBE4D004BEBA9 /* Atlas.h */;
+		name = "Atlas.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	953819D4128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E5F1F8A117FBE4D004BEBA9 /* Atlas.m */;
+		name = "Atlas.m: 11";
+		rLen = 0;
+		rLoc = 349;
+		rType = 0;
+		vrLen = 658;
+		vrLoc = 0;
+	};
+	953819D5128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538196A128BD1E80014B631 /* TTTwitterSearchFeedDataSource.h */;
+		name = "TTTwitterSearchFeedDataSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 0;
+	};
+	953819D6128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819D7128BE8F90014B631 /* TTTableViewController.h */;
+		name = "TTTableViewController.h: 43";
+		rLen = 21;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 487;
+	};
+	953819D7128BE8F90014B631 /* TTTableViewController.h */ = {
+		isa = PBXFileReference;
+		name = TTTableViewController.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20UI/TTTableViewController.h;
+		sourceTree = "<absolute>";
+	};
+	953819D8128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819D9128BE8F90014B631 /* TTModelViewController.h */;
+		name = "TTModelViewController.h: 58";
+		rLen = 21;
+		rLoc = 1641;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 1189;
+	};
+	953819D9128BE8F90014B631 /* TTModelViewController.h */ = {
+		isa = PBXFileReference;
+		name = TTModelViewController.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20UI/TTModelViewController.h;
+		sourceTree = "<absolute>";
+	};
+	953819DA128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819DB128BE8F90014B631 /* TTTableViewDataSource.h */;
+		name = "TTTableViewDataSource.h: 80";
+		rLen = 70;
+		rLoc = 2452;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 1768;
+	};
+	953819DB128BE8F90014B631 /* TTTableViewDataSource.h */ = {
+		isa = PBXFileReference;
+		name = TTTableViewDataSource.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20UI/TTTableViewDataSource.h;
+		sourceTree = "<absolute>";
+	};
+	953819DC128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819DD128BE8F90014B631 /* TTListDataSource.h */;
+		name = "TTListDataSource.h: 20";
+		rLen = 21;
+		rLoc = 677;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 0;
+	};
+	953819DD128BE8F90014B631 /* TTListDataSource.h */ = {
+		isa = PBXFileReference;
+		name = TTListDataSource.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20UI/TTListDataSource.h;
+		sourceTree = "<absolute>";
+	};
+	953819DE128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B42D118286E700DA1579 /* SearchFeedViewController.h */;
+		name = "SearchFeedViewController.h: 11";
+		rLen = 21;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	953819DF128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B42E118286E700DA1579 /* SearchFeedViewController.m */;
+		name = "SearchFeedViewController.m: 64";
+		rLen = 0;
+		rLoc = 2092;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 1385;
+	};
+	953819E0128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B428118286D900DA1579 /* TTFacebookSearchFeedDataSource.m */;
+		name = "TTFacebookSearchFeedDataSource.m: 52";
+		rLen = 0;
+		rLoc = 1744;
+		rType = 0;
+		vrLen = 1152;
+		vrLoc = 596;
+	};
+	953819E1128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B427118286D900DA1579 /* TTFacebookSearchFeedDataSource.h */;
+		name = "TTFacebookSearchFeedDataSource.h: 23";
+		rLen = 25;
+		rLoc = 996;
+		rType = 0;
+		vrLen = 1100;
+		vrLoc = 0;
+	};
+	953819E2128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B42B118286DF00DA1579 /* TTFacebookSearchFeedModel.m */;
+		name = "TTFacebookSearchFeedModel.m: 29";
+		rLen = 42;
+		rLoc = 1105;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 271;
+	};
+	953819E3128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B42A118286DF00DA1579 /* TTFacebookSearchFeedModel.h */;
+		name = "TTFacebookSearchFeedModel.h: 20";
+		rLen = 17;
+		rLoc = 935;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 0;
+	};
+	953819E4128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819E5128BE8F90014B631 /* TTURLRequestModel.h */;
+		name = "TTURLRequestModel.h: 27";
+		rLen = 7;
+		rLoc = 981;
+		rType = 0;
+		vrLen = 1268;
+		vrLoc = 0;
+	};
+	953819E5128BE8F90014B631 /* TTURLRequestModel.h */ = {
+		isa = PBXFileReference;
+		name = TTURLRequestModel.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20Network/TTURLRequestModel.h;
+		sourceTree = "<absolute>";
+	};
+	953819E6128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819E7128BE8F90014B631 /* TTModel.h */;
+		rLen = 1;
+		rLoc = 27;
+		rType = 1;
+	};
+	953819E7128BE8F90014B631 /* TTModel.h */ = {
+		isa = PBXFileReference;
+		name = TTModel.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20Network/TTModel.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1846}}";
+			sepNavSelRange = "{1109, 0}";
+			sepNavVisRange = "{0, 1135}";
+		};
+	};
+	953819E8128BE8F90014B631 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953819E9128BE8F90014B631 /* TTModel.h */;
+		name = "TTModel.h: 38";
+		rLen = 0;
+		rLoc = 1109;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 0;
+	};
+	953819E9128BE8F90014B631 /* TTModel.h */ = {
+		isa = PBXFileReference;
+		name = TTModel.h;
+		path = /Users/shistone/workspace/githubs/three20/Build/Products/three20/Three20Network/TTModel.h;
+		sourceTree = "<absolute>";
+	};
+}

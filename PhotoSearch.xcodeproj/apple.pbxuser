@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	18314AFC129831BD00344579 /* PhotoSearch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PhotoSearch;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	18314AFD129831BD00344579 /* PhotoSearch-Xcode3.2.5 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "PhotoSearch-Xcode3.2.5";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	18314AFE129831BD00344579 /* PhotoSearch-Xcode3.2.2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "PhotoSearch-Xcode3.2.2";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	18314B4E129831CE00344579 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	18314B4F129831CE00344579 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	18314B521298361600344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817B4128BBBAC0014B631 /* RootSearchViewController.m */;
+		rLen = 0;
+		rLoc = 905;
+		rType = 0;
+	};
+	18314B5A1298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AppDelegate.m */;
+		name = "AppDelegate.m: 44";
+		rLen = 24;
+		rLoc = 1865;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 621;
+	};
+	18314B5B1298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B42E118286E700DA1579 /* SearchFeedViewController.m */;
+		name = "SearchFeedViewController.m: 25";
+		rLen = 41;
+		rLoc = 1020;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 1285;
+	};
+	18314B5C1298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953815AC128940E20014B631 /* GTMNSString+URLArguments.h */;
+		name = "GTMNSString+URLArguments.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 0;
+	};
+	18314B5D1298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817B3128BBBAC0014B631 /* RootSearchViewController.h */;
+		name = "RootSearchViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 0;
+	};
+	18314B5E1298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E08B42D118286E700DA1579 /* SearchFeedViewController.h */;
+		name = "SearchFeedViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	18314B5F1298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150012893E610014B631 /* MockPhotoSource.h */;
+		name = "MockPhotoSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 0;
+	};
+	18314B601298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150112893E610014B631 /* MockPhotoSource.m */;
+		name = "MockPhotoSource.m: 67";
+		rLen = 0;
+		rLoc = 2261;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 2633;
+	};
+	18314B611298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150312893E610014B631 /* PhotoThumbsViewController.m */;
+		name = "PhotoThumbsViewController.m: 8";
+		rLen = 0;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 270;
+		vrLoc = 0;
+	};
+	18314B621298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9538150212893E610014B631 /* PhotoThumbsViewController.h */;
+		name = "PhotoThumbsViewController.h: 3";
+		rLen = 25;
+		rLoc = 40;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	18314B631298365B00344579 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 953817B4128BBBAC0014B631 /* RootSearchViewController.m */;
+		name = "RootSearchViewController.m: 44";
+		rLen = 0;
+		rLoc = 1434;
+		rType = 0;
+		vrLen = 1451;
+		vrLoc = 733;
+	};
+	1D3623250D0F684500981E51 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1407}}";
+			sepNavSelRange = "{1865, 24}";
+			sepNavVisRange = "{621, 1624}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* PhotoSearch */ = {
+		activeExec = 0;
+		executables = (
+			18314AFC129831BD00344579 /* PhotoSearch */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 18314AFC129831BD00344579 /* PhotoSearch */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PhotoSearch */;
+		codeSenseManager = 18314B4F129831CE00344579 /* Code sense */;
+		executables = (
+			18314AFC129831BD00344579 /* PhotoSearch */,
+			18314AFD129831BD00344579 /* PhotoSearch-Xcode3.2.5 */,
+			18314AFE129831BD00344579 /* PhotoSearch-Xcode3.2.2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1335,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311964093;
+			PBXWorkspaceStateSaveDate = 311964093;
+		};
+		perUserProjectItems = {
+			18314B521298361600344579 /* PBXTextBookmark */ = 18314B521298361600344579 /* PBXTextBookmark */;
+			18314B5A1298365B00344579 /* PBXTextBookmark */ = 18314B5A1298365B00344579 /* PBXTextBookmark */;
+			18314B5B1298365B00344579 /* PBXTextBookmark */ = 18314B5B1298365B00344579 /* PBXTextBookmark */;
+			18314B5C1298365B00344579 /* PBXTextBookmark */ = 18314B5C1298365B00344579 /* PBXTextBookmark */;
+			18314B5D1298365B00344579 /* PBXTextBookmark */ = 18314B5D1298365B00344579 /* PBXTextBookmark */;
+			18314B5E1298365B00344579 /* PBXTextBookmark */ = 18314B5E1298365B00344579 /* PBXTextBookmark */;
+			18314B5F1298365B00344579 /* PBXTextBookmark */ = 18314B5F1298365B00344579 /* PBXTextBookmark */;
+			18314B601298365B00344579 /* PBXTextBookmark */ = 18314B601298365B00344579 /* PBXTextBookmark */;
+			18314B611298365B00344579 /* PBXTextBookmark */ = 18314B611298365B00344579 /* PBXTextBookmark */;
+			18314B621298365B00344579 /* PBXTextBookmark */ = 18314B621298365B00344579 /* PBXTextBookmark */;
+			18314B631298365B00344579 /* PBXTextBookmark */ = 18314B631298365B00344579 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 18314B4E129831CE00344579 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	664D010C12664B5F004C20C2 /* PhotoSearch-Xcode3.2.5 */ = {
+		activeExec = 0;
+		executables = (
+			18314AFD129831BD00344579 /* PhotoSearch-Xcode3.2.5 */,
+		);
+	};
+	66D438CC12664C5F004C5F38 /* PhotoSearch-Xcode3.2.2 */ = {
+		activeExec = 0;
+		executables = (
+			18314AFE129831BD00344579 /* PhotoSearch-Xcode3.2.2 */,
+		);
+	};
+	6E08B42D118286E700DA1579 /* SearchFeedViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 808}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 609}";
+		};
+	};
+	6E08B42E118286E700DA1579 /* SearchFeedViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1575}}";
+			sepNavSelRange = "{1020, 41}";
+			sepNavVisRange = "{1285, 1053}";
+		};
+	};
+	9538150012893E610014B631 /* MockPhotoSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 1134}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1084}";
+		};
+	};
+	9538150112893E610014B631 /* MockPhotoSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1995.16, 5796}}";
+			sepNavSelRange = "{2261, 0}";
+			sepNavVisRange = "{2633, 1476}";
+		};
+	};
+	9538150212893E610014B631 /* PhotoThumbsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 808}}";
+			sepNavSelRange = "{40, 25}";
+			sepNavVisRange = "{0, 139}";
+		};
+	};
+	9538150312893E610014B631 /* PhotoThumbsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 808}}";
+			sepNavSelRange = "{175, 0}";
+			sepNavVisRange = "{0, 270}";
+		};
+	};
+	953815AC128940E20014B631 /* GTMNSString+URLArguments.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 882}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1546}";
+		};
+	};
+	953817B3128BBBAC0014B631 /* RootSearchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 808}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 238}";
+		};
+	};
+	953817B4128BBBAC0014B631 /* RootSearchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496.66, 1701}}";
+			sepNavSelRange = "{1109, 0}";
+			sepNavVisRange = "{832, 749}";
+		};
+	};
+}
