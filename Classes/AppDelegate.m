@@ -41,6 +41,8 @@
   [map from:@"*" toViewController:[TTWebController class]];
   [map from:kAppRootURLPath toViewController:[RootSearchViewController class]];
   //search from facebook feed
+	
+	//[map from:@"tt://nib/(loadFromNib:)" toViewController:[SearchFeedViewController class]];
   [map from:@"tt://facebookfeed/(initWithQuery:)" toViewController:[SearchFeedViewController class]];
   //search from flickr 
 	

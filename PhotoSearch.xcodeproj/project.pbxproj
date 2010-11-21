@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18314C521298E80800344579 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18314C4F1298E80800344579 /* CustomView.m */; };
+		18314C531298E80800344579 /* CustomPickerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18314C511298E80800344579 /* CustomPickerDataSource.m */; };
+		18314CC71298F47A00344579 /* facebook_logo48.png in Resources */ = {isa = PBXBuildFile; fileRef = 18314CC61298F47A00344579 /* facebook_logo48.png */; };
+		18314CD21298F65A00344579 /* flickr48.png in Resources */ = {isa = PBXBuildFile; fileRef = 18314CD11298F65A00344579 /* flickr48.png */; };
+		18314CD41298F6B000344579 /* twitter48.png in Resources */ = {isa = PBXBuildFile; fileRef = 18314CD31298F6B000344579 /* twitter48.png */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -683,6 +688,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18314C4E1298E80800344579 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		18314C4F1298E80800344579 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		18314C501298E80800344579 /* CustomPickerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerDataSource.h; sourceTree = "<group>"; };
+		18314C511298E80800344579 /* CustomPickerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerDataSource.m; sourceTree = "<group>"; };
+		18314CC61298F47A00344579 /* facebook_logo48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_logo48.png; sourceTree = "<group>"; };
+		18314CD11298F65A00344579 /* flickr48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickr48.png; sourceTree = "<group>"; };
+		18314CD31298F6B000344579 /* twitter48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter48.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -811,6 +823,17 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		18314C4D1298E80800344579 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				18314C4E1298E80800344579 /* CustomView.h */,
+				18314C4F1298E80800344579 /* CustomView.m */,
+				18314C501298E80800344579 /* CustomPickerDataSource.h */,
+				18314C511298E80800344579 /* CustomPickerDataSource.m */,
+			);
+			name = Picker;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -848,6 +871,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18314CD31298F6B000344579 /* twitter48.png */,
+				18314CD11298F65A00344579 /* flickr48.png */,
+				18314CC61298F47A00344579 /* facebook_logo48.png */,
 				6E08B48C118288A300DA1579 /* Default.png */,
 				6E08B48D118288A300DA1579 /* Icon.png */,
 				6E5F1F2E117FB4D9004BEBA9 /* Three20.bundle */,
@@ -1034,6 +1060,7 @@
 		6E5F1FA7117FC590004BEBA9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				18314C4D1298E80800344579 /* Picker */,
 				1D3623240D0F684500981E51 /* AppDelegate.h */,
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 				953817B3128BBBAC0014B631 /* RootSearchViewController.h */,
@@ -1680,6 +1707,9 @@
 				6E08B48F118288A300DA1579 /* Icon.png in Resources */,
 				6E08361111B4C63400B99C32 /* extThree20CSSStyle.bundle in Resources */,
 				6E08373211B4D18D00B99C32 /* stylesheet.css in Resources */,
+				18314CC71298F47A00344579 /* facebook_logo48.png in Resources */,
+				18314CD21298F65A00344579 /* flickr48.png in Resources */,
+				18314CD41298F6B000344579 /* twitter48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1728,6 +1758,8 @@
 				95381972128BD1E80014B631 /* TTTwitterSearchFeedDataSource.m in Sources */,
 				95381973128BD1E80014B631 /* TTTwitterSearchFeedModel.m in Sources */,
 				95381975128BD1E80014B631 /* TTTwitterTweet.m in Sources */,
+				18314C521298E80800344579 /* CustomView.m in Sources */,
+				18314C531298E80800344579 /* CustomPickerDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1909,10 +1941,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				INFOPLIST_FILE = "PhotoSearch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = PhotoSearch;
 				SDKROOT = iphoneos4.1;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};

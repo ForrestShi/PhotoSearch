@@ -17,6 +17,16 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 @implementation RootSearchViewController
 
+@synthesize customPickerView ,customPickerDataSource;
+
+- (void)dealloc
+{
+	[customPickerView release];
+	[customPickerDataSource release];
+    [queryField release];
+    [super dealloc];
+}
+
 - (id)init
 {
     if ((self = [super init])) {
@@ -26,30 +36,96 @@
     return self;
 }
 
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil	{
+	if (self = [super initWithNibName:nibNameOrNil bundle:nibNameOrNil]) {
+		//
+	}
+	return self;
+
+}
+
+#pragma mark 
+#pragma mark UIPickerView - Custom Picker
+// return the picker frame based on its size, positioned at the bottom of the page
+- (CGRect)pickerFrameWithSize:(CGSize)size
+{
+	CGRect screenRect = [[UIScreen mainScreen] applicationFrame];
+	CGRect pickerRect = CGRectMake(	0.0,
+								   screenRect.size.height - 84.0 - size.height,
+								   size.width,
+								   size.height);
+	return pickerRect;
+}
+
+
+- (void)createCustomPicker
+{
+	customPickerView = [[UIPickerView alloc] initWithFrame:CGRectZero];
+	customPickerView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+	
+	// setup the data source and delegate for this picker
+	customPickerDataSource = [[CustomPickerDataSource alloc] init];
+	customPickerDataSource.indexDelegate = self;
+	customPickerView.dataSource = customPickerDataSource;
+	customPickerView.delegate = customPickerDataSource;
+	
+	// note we are using CGRectZero for the dimensions of our picker view,
+	// this is because picker views have a built in optimum size,
+	// you just need to set the correct origin in your view.
+	//
+	// position the picker at the bottom
+	CGSize pickerSize = [customPickerView sizeThatFits:CGSizeZero];
+	customPickerView.frame = [self pickerFrameWithSize:pickerSize];
+	customPickerView.showsSelectionIndicator = YES;
+	
+	// add this picker to our view controller, initially hidden
+	//customPickerView.hidden = YES;
+	[self.view addSubview:customPickerView];
+}
+
+#pragma mark 
+#pragma mark CurrentPickerIndex methods
+
+-(void)retrieveCurrentIndex:(NSInteger*)index{
+	currentMode = *index;
+}
+
 - (void)doSearch
 {
     NSLog(@"Searching for %@", queryField.text);
     
     [queryField resignFirstResponder];
   
-	// search photos from flickr 
-    PhotoThumbsViewController *thumbs = [[PhotoThumbsViewController alloc] initWithQuery:queryField.text];
-   
-    [self.navigationController pushViewController:thumbs animated:YES];
-    [thumbs release];
+	
+	switch (currentMode) {
+		case SearchPhotoFromFlickr:
+		{
+			PhotoThumbsViewController *thumbs = [[PhotoThumbsViewController alloc] initWithQuery:queryField.text];
+			
+			[self.navigationController pushViewController:thumbs animated:YES];
+			[thumbs release];
+			break;
+		}
+		case SearchFeedFromFacebook:
+		{
+			SearchFeedViewController* feedViewController = [[SearchFeedViewController alloc] initWithQuery:queryField.text withFeedType:TWITTER];
+			[self.navigationController pushViewController:feedViewController animated:YES	];
+			feedViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+			[feedViewController release];
+			break;
+		}
+		default:
+			break;
+	}
 
-	//search feed from facebook
-//	SearchFeedViewController* feedViewController = [[SearchFeedViewController alloc] initWithQuery:queryField.text withFeedType:TWITTER];
-//	[self.navigationController pushViewController:feedViewController animated:YES	];
-//	feedViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-//	[feedViewController release];
 }
 
 - (void)loadView
 {
     self.view = [[[UIView alloc] initWithFrame:TTApplicationFrame()] autorelease];
-    self.view.backgroundColor = [UIColor blackColor];//[UIColor colorWithWhite:1.0f alpha:1.f];
+    self.view.backgroundColor = [UIColor whiteColor];//[UIColor colorWithWhite:1.0f alpha:1.f];
     
+	long offsetY = 0;
     // Search query field.
 	CGRect frame = TTApplicationFrame();
     queryField = [[UITextField alloc] initWithFrame:CGRectMake(frame.size.width/10,frame.size.height/20,frame.size.width*8/10,40)];
@@ -60,22 +136,16 @@
     queryField.borderStyle = UITextBorderStyleRoundedRect;
     [self.view addSubview:queryField];
 	
+	offsetY += 50;
     // Search button.
     UIButton *searchButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [searchButton setTitle:@"Search" forState:UIControlStateNormal];
-    [searchButton setFrame:CGRectMake(190.f, 140.f, 100.f, 44.f)];
+    [searchButton setFrame:CGRectMake(frame.size.width*0.7,frame.size.height/20 + offsetY,frame.size.width*0.2,40)];
     [searchButton addTarget:self action:@selector(doSearch) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:searchButton];
+	
+	[self createCustomPicker];
 }
-
-- (void)dealloc
-{
-    [queryField release];
-    [super dealloc];
-}
-
-
-
 
 @end
 
